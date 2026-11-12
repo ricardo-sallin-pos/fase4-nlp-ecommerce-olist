@@ -1,0 +1,28 @@
+# Dependências do Projeto Tech Challenge - Fase 4 (FIAP)
+# Voice of Customer Intelligence com RAG
+
+# Frameworks de LLM e Orquestração RAG
+langchain-core>=0.3.0
+langchain-community>=0.3.0
+langchain-google-genai>=2.0.0
+langchain-tavily>=0.1.0
+
+# Banco Vetorial e SDK Google GenAI
+chromadb>=0.5.0
+google-genai>=0.1.0
+
+# Processamento de Dados e Estatística
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Processamento de Linguagem Natural (NLP)
+spacy>=3.7.0
+nltk>=3.8.0
+
+# Utilitários e Ambiente
+python-dotenv>=1.0.0
+kagglehub>=0.2.0
+
+# Telemetria e Compatibilidade (ChromaDB / LangChain)
+opentelemetry-api>=1.20.0
+opentelemetry-sdk>=1.20.0
