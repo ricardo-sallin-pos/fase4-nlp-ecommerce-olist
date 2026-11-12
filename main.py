@@ -556,8 +556,8 @@ pausa = 31
 
 print_title(f"Iniciando inserção de {total_documentos} documentos em lotes de {tamanho_lote}...")
 
-# mas o modelo de Embedding tem limite de 1000 reqs/dia, então vamos parar em 1000 neste teste
-for i in range(0, 999, tamanho_lote):
+# mas o modelo de Embedding tem limite de 1000 reqs/dia, então vamos parar antes neste teste
+for i in range(0, 900, tamanho_lote):
     lote_atual = docs_para_inserir[i:i + tamanho_lote]
     print(f"{now()} Enviando lote {i // tamanho_lote + 1}... (índices {i} a {i + len(lote_atual) - 1})")
 
